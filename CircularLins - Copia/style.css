@@ -1,0 +1,121 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #0074E7;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  header img {
+    max-width: 150px;
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  .bus-image {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .bus-image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .action-button {
+    background-color: #fff;
+    border: none;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .selected-button{
+    background-color: #90bdeb;
+    border: none;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .actions svg {
+    width: 24px;
+    height: 24px;
+    fill: #333;
+  }
+  
+  .routes {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  
+  .routes h2 {
+    margin-top: 0;
+  }
+  
+  .route-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .route-item {
+    padding: 1rem 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .route-number {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+  }
+  
+  .route-name {
+    font-size: 1.1rem;
+  }
+  
+  .route-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+
+  .route-link:hover{
+    color: #4f8719;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    fill: gray;
+    cursor: pointer;
+}
+.icon.selected {
+    fill: red;
+}
